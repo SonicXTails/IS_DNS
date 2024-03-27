@@ -1,0 +1,107 @@
+﻿<Window x:Class="Information_System_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Information_System_App"
+        mc:Ignorable="d"
+        Title="ИС (DNS) Окно авторизации" Height="400" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!--15-->
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--10-->
+
+        <Rectangle
+            Grid.Column="4" Grid.ColumnSpan="7" Margin="26,28,26,10" Grid.RowSpan="2">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/DNS_Logo.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Border 
+            BorderThickness="1" 
+            Grid.Row="2" Grid.RowSpan="7"
+            Grid.Column="2" Grid.ColumnSpan="11"
+            CornerRadius="20,20,0,0">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEA8819"/>
+                    <GradientStop Color="White" Offset="0.993"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock
+            Grid.Row="2" Grid.RowSpan="2"
+            Grid.Column="4" Grid.ColumnSpan="7"
+            HorizontalAlignment="Center"
+            Text="Авторизация" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center"
+            FontSize="25" FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White"/>
+        <TextBlock            
+            Grid.Row="4"
+            Grid.Column="1" Grid.ColumnSpan="7"
+            HorizontalAlignment="Center"
+            Text="Логин:" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center"
+            FontSize="15" FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White"/>
+        <TextBox
+            x:Name="Auth_Username_or_Email_TextBox"
+            Grid.Row="4"
+            Grid.Column="6" Grid.ColumnSpan="6"
+            VerticalAlignment="Center"
+            TextWrapping="Wrap"
+            FontSize="15" FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White" TextChanged="Auth_Username_or_Email_TextBox_TextChanged" BorderBrush="#7FFFFFFF"/>
+        <TextBlock            
+            Grid.Row="5"
+            Grid.Column="1" Grid.ColumnSpan="7"
+            HorizontalAlignment="Center"
+            Text="Пароль:" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center"
+            FontSize="15" FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White"/>
+        <PasswordBox
+            x:Name="Auth_Password_PasswordBox"
+            Grid.Row="5"
+            Grid.Column="6" Grid.ColumnSpan="6"
+            VerticalAlignment="Center"
+            FontSize="15" FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White" PasswordChanged="Auth_Password_TextBox_PasswordChanged" BorderBrush="#7FFFFFFF"/>
+        <Button 
+            x:Name="Auth_Authorization_button"
+            Grid.Row="7" VerticalAlignment="Top"
+            Grid.Column="3" Grid.ColumnSpan="9"
+            Content="Войти"
+            FontSize="20" FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White" Background="#FFF1B067" Click="Auth_Authorization_button_Click"/>
+        <TextBlock
+            x:Name="Wrong_Auth"
+            Grid.Row="3"
+            Grid.Column="3" Grid.ColumnSpan="9"
+            TextAlignment="Center"
+            VerticalAlignment="Bottom"
+            FontSize="15"
+            Text="Вы ввели некоректно данные"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White"/>
+    </Grid>
+</Window>

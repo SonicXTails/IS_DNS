@@ -1,0 +1,25 @@
+﻿        private void New_textbox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (!System.Text.RegularExpressions.Regex.IsMatch(New_textbox.Text, "^[0-9]+$"))
+            {
+                New_textbox.Text = string.Empty;
+            }
+        } // ввод символов только для цифр
+
+
+
+
+
+
+
+        private void Reason_textbox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string input = Reason_textbox.Text;
+            string nonNumericInput = new string(input.Where(c => !char.IsDigit(c)).ToArray());
+
+            if (input != nonNumericInput)
+            {
+                Reason_textbox.Text = nonNumericInput;
+                Reason_textbox.Select(Reason_textbox.Text.Length, 0);
+            }
+        } // ввод символов только для слов

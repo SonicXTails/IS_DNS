@@ -1,0 +1,1137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MaterialForms</name>
+    </assembly>
+    <members>
+        <member name="T:MaterialForms.Controls.ButtonControl">
+            <summary>
+            Interaction logic for SingleLineTextControl.xaml
+            </summary>
+            <summary>
+            ButtonControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.ButtonControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Controls.CaptionControl">
+            <summary>
+            Interaction logic for SingleLineTextControl.xaml
+            </summary>
+            <summary>
+            CaptionControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.CaptionControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Controls.MultiLineTextControl">
+            <summary>
+            Interaction logic for SingleLineTextControl.xaml
+            </summary>
+            <summary>
+            MultiLineTextControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.MultiLineTextControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Controls.CheckBoxControl">
+            <summary>
+            Interaction logic for SingleLineTextControl.xaml
+            </summary>
+            <summary>
+            CheckBoxControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.CheckBoxControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Controls.KeyValueControl">
+            <summary>
+            Interaction logic for SingleLineTextControl.xaml
+            </summary>
+            <summary>
+            KeyValueControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.KeyValueControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Controls.FileLoaderControl">
+            <summary>
+            Interaction logic for SingleLineTextControl.xaml
+            </summary>
+            <summary>
+            FileLoaderControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.FileLoaderControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Controls.MultiSchemaControl">
+            <summary>
+            Interaction logic for MultiSchemaControl.xaml
+            </summary>
+            <summary>
+            MultiSchemaControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.MultiSchemaControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Controls.ProgressControl">
+            <summary>
+            Interaction logic for SingleLineTextControl.xaml
+            </summary>
+            <summary>
+            ProgressControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.ProgressControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Controls.SwitchControl">
+            <summary>
+            Interaction logic for SingleLineTextControl.xaml
+            </summary>
+            <summary>
+            SwitchControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.SwitchControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Controls.SliderControl">
+            <summary>
+            Interaction logic for SingleLineTextControl.xaml
+            </summary>
+            <summary>
+            SliderControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.SliderControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Controls.TimePickerControl">
+            <summary>
+            Interaction logic for SingleLineTextControl.xaml
+            </summary>
+            <summary>
+            TimePickerControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.TimePickerControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Controls.DatePickerControl">
+            <summary>
+            Interaction logic for SingleLineTextControl.xaml
+            </summary>
+            <summary>
+            DatePickerControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.DatePickerControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Controls.PasswordTextControl">
+            <summary>
+            Interaction logic for SingleLineTextControl.xaml
+            </summary>
+            <summary>
+            PasswordTextControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.PasswordTextControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Controls.ComboBoxControl">
+            <summary>
+            Interaction logic for SingleLineTextControl.xaml
+            </summary>
+            <summary>
+            ComboBoxControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.ComboBoxControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Controls.SingleLineTextControl">
+            <summary>
+            Interaction logic for SingleLineTextControl.xaml
+            </summary>
+            <summary>
+            SingleLineTextControl
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Controls.SingleLineTextControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.MultiSchema">
+            <summary>
+            Allows adding multiple schemas within the same row.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MultiSchema.Schemas">
+            <summary>
+            Gets the schemas being presented.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MultiSchema.RelativeColumnWidths">
+            <summary>
+            Gets the star size width of each schema in their respective index.
+            Default width for each element is one unit.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.DialogTheme">
+            <summary>
+            Represents the color theme of the displayed dialog.
+            </summary>
+        </member>
+        <member name="F:MaterialForms.DialogTheme.Inherit">
+            <summary>
+            Inherits the scheme used by the application.
+            </summary>
+        </member>
+        <member name="F:MaterialForms.DialogTheme.Light">
+            <summary>
+            Light background with dark foreground color.
+            </summary>
+        </member>
+        <member name="F:MaterialForms.DialogTheme.Dark">
+            <summary>
+            Dark background with light foreground color.
+            </summary>
+        </member>
+        <member name="F:MaterialForms.MaterialDialog.DefaultDialogTheme">
+            <summary>
+            Represents the default theme used by new dialogs.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MaterialDialog.Title">
+            <summary>
+            Gets or sets the title that appears in the dialog. This is not the same as the window title.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MaterialDialog.Message">
+            <summary>
+            Gets or sets the message that appears in the dialog.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MaterialDialog.PositiveAction">
+            <summary>
+            Gets or sets the text that appears on the positive dialog button. A null or empty value hides the button.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MaterialDialog.Theme">
+            <summary>
+            Gets or sets the dialog theme.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MaterialDialog.OnPositiveAction">
+            <summary>
+            Gets or sets the callback that will be invoked when the positive button is clicked by the user.
+            When this property is not null, the dialog must be closed explicitly using Session.Close(result).
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MaterialDialog.NegativeAction">
+            <summary>
+            Gets or sets the text that appears on the negative dialog button. A null or empty value hides the button.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MaterialDialog.OnNegativeAction">
+            <summary>
+            Gets or sets the callback that will be invoked when the negative button is clicked by the user.
+            When this property is not null, the dialog must be closed explicitly using Session.Close(result).
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MaterialDialog.AuxiliaryAction">
+            <summary>
+            Gets or sets the text that appears on the auxiliary dialog button. A null or empty value hides the button.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MaterialDialog.OnAuxiliaryAction">
+            <summary>
+            Gets or sets the callback that will be invoked when the auxiliary button is clicked by the user.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MaterialDialog.View">
+            <summary>
+            Gets a new instance of a DialogView bound to this object.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MaterialDialog.ValidatesOnPositiveAction">
+            <summary>
+            Gets or sets whether to perform form validation before handling the positive dialog action.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MaterialDialog.ShowsProgressOnPositiveAction">
+            <summary>
+            Gets or sets whether to show a progress indicator while performing the positive dialog action.
+            Applies only when a custom handler is assigned to the PositiveAction property.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.Session.Id">
+            <summary>
+            Gets the unique ID associated with this session.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.Session.Dialog">
+            <summary>
+            Gets the dialog object for which this session exists.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.Session.Item(System.String)">
+            <summary>
+            Gets or sets the value of the form schema with the specified key.
+            </summary>
+            <param name="key">The key of the schema.</param>
+        </member>
+        <member name="P:MaterialForms.Session.Task">
+            <summary>
+            Gets the task that represents the dialog's session lifecycle.
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Session.Close(System.Nullable{System.Boolean})">
+            <summary>
+            Closes the session unconditionally.
+            </summary>
+            <param name="result">The value that will be returned from the session's task.</param>
+        </member>
+        <member name="M:MaterialForms.Session.Invalidate(System.String,System.String)">
+            <summary>
+            Displays an error message for the specified schema.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.WindowSession">
+            <summary>
+            Manages the lifecycle of a window displayed to the user.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.WindowSession.DialogIdentifier">
+            <summary>
+            Gets the unique identifier for the window's dialog host.
+            </summary>
+        </member>
+        <member name="E:MaterialForms.WindowSession.Loaded">
+            <summary>
+            Occurs when the window has loaded and has been displayed to the user.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.WindowSession.Window">
+            <summary>
+            Gets the data context of the displayed window.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.WindowSession.IsClosed">
+            <summary>
+            Gets whether the session has finished and the window is closed.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.WindowSession.IsLoaded">
+            <summary>
+            Gets whether the window has loaded and has been displayed to the user. A true value does not guarantee that the window is still open.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.WindowSession.Dialog">
+            <summary>
+            Gets the dialog associated with the MaterialWindow context.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.WindowSession.Task">
+            <summary>
+            Gets the task representing the window session being displayed. The task returns the window's dialog result.
+            </summary>
+            <remarks>Waiting synchronously for this task from the same dispatcher will cause a deadlock.</remarks>
+        </member>
+        <member name="M:MaterialForms.WindowSession.Close(System.Nullable{System.Boolean})">
+            <summary>
+            Closes the displayed window unconditionally.
+            </summary>
+            <param name="result">The value that will be returned from the session's task.</param>
+        </member>
+        <member name="T:MaterialForms.Extensions.InitializerExtensions">
+            <summary>
+            Helper extensions for object initialization.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.CanBeNullAttribute">
+            <summary>
+            Indicates that the value of the marked element could be <c>null</c> sometimes,
+            so the check for <c>null</c> is necessary before its usage.
+            </summary>
+            <example><code>
+            [CanBeNull] object Test() => null;
+            
+            void UseTest() {
+              var p = Test();
+              var s = p.ToString(); // Warning: Possible 'System.NullReferenceException'
+            }
+            </code></example>
+        </member>
+        <member name="T:MaterialForms.Annotations.NotNullAttribute">
+            <summary>
+            Indicates that the value of the marked element could never be <c>null</c>.
+            </summary>
+            <example><code>
+            [NotNull] object Foo() {
+              return null; // Warning: Possible 'null' assignment
+            }
+            </code></example>
+        </member>
+        <member name="T:MaterialForms.Annotations.ItemNotNullAttribute">
+            <summary>
+            Can be appplied to symbols of types derived from IEnumerable as well as to symbols of Task
+            and Lazy classes to indicate that the value of a collection item, of the Task.Result property
+            or of the Lazy.Value property can never be null.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.ItemCanBeNullAttribute">
+            <summary>
+            Can be appplied to symbols of types derived from IEnumerable as well as to symbols of Task
+            and Lazy classes to indicate that the value of a collection item, of the Task.Result property
+            or of the Lazy.Value property can be null.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.StringFormatMethodAttribute">
+            <summary>
+            Indicates that the marked method builds string by format pattern and (optional) arguments.
+            Parameter, which contains format string, should be given in constructor. The format string
+            should be in <see cref="M:System.String.Format(System.IFormatProvider,System.String,System.Object[])"/>-like form.
+            </summary>
+            <example><code>
+            [StringFormatMethod("message")]
+            void ShowError(string message, params object[] args) { /* do something */ }
+            
+            void Foo() {
+              ShowError("Failed: {0}"); // Warning: Non-existing argument in format string
+            }
+            </code></example>
+        </member>
+        <member name="M:MaterialForms.Annotations.StringFormatMethodAttribute.#ctor(System.String)">
+            <param name="formatParameterName">
+            Specifies which parameter of an annotated method should be treated as format-string
+            </param>
+        </member>
+        <member name="T:MaterialForms.Annotations.ValueProviderAttribute">
+            <summary>
+            For a parameter that is expected to be one of the limited set of values.
+            Specify fields of which type should be used as values for this parameter.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.InvokerParameterNameAttribute">
+            <summary>
+            Indicates that the function argument should be string literal and match one
+            of the parameters of the caller function. For example, ReSharper annotates
+            the parameter of <see cref="T:System.ArgumentNullException"/>.
+            </summary>
+            <example><code>
+            void Foo(string param) {
+              if (param == null)
+                throw new ArgumentNullException("par"); // Warning: Cannot resolve symbol
+            }
+            </code></example>
+        </member>
+        <member name="T:MaterialForms.Annotations.NotifyPropertyChangedInvocatorAttribute">
+             <summary>
+             Indicates that the method is contained in a type that implements
+             <c>System.ComponentModel.INotifyPropertyChanged</c> interface and this method
+             is used to notify that some property value changed.
+             </summary>
+             <remarks>
+             The method should be non-static and conform to one of the supported signatures:
+             <list>
+             <item><c>NotifyChanged(string)</c></item>
+             <item><c>NotifyChanged(params string[])</c></item>
+             <item><c>NotifyChanged{T}(Expression{Func{T}})</c></item>
+             <item><c>NotifyChanged{T,U}(Expression{Func{T,U}})</c></item>
+             <item><c>SetProperty{T}(ref T, T, string)</c></item>
+             </list>
+             </remarks>
+             <example><code>
+             public class Foo : INotifyPropertyChanged {
+               public event PropertyChangedEventHandler PropertyChanged;
+             
+               [NotifyPropertyChangedInvocator]
+               protected virtual void NotifyChanged(string propertyName) { ... }
+            
+               string _name;
+             
+               public string Name {
+                 get { return _name; }
+                 set { _name = value; NotifyChanged("LastName"); /* Warning */ }
+               }
+             }
+             </code>
+             Examples of generated notifications:
+             <list>
+             <item><c>NotifyChanged("Property")</c></item>
+             <item><c>NotifyChanged(() =&gt; Property)</c></item>
+             <item><c>NotifyChanged((VM x) =&gt; x.Property)</c></item>
+             <item><c>SetProperty(ref myField, value, "Property")</c></item>
+             </list>
+             </example>
+        </member>
+        <member name="T:MaterialForms.Annotations.ContractAnnotationAttribute">
+            <summary>
+            Describes dependency between method input and output.
+            </summary>
+            <syntax>
+            <p>Function Definition Table syntax:</p>
+            <list>
+            <item>FDT      ::= FDTRow [;FDTRow]*</item>
+            <item>FDTRow   ::= Input =&gt; Output | Output &lt;= Input</item>
+            <item>Input    ::= ParameterName: Value [, Input]*</item>
+            <item>Output   ::= [ParameterName: Value]* {halt|stop|void|nothing|Value}</item>
+            <item>Value    ::= true | false | null | notnull | canbenull</item>
+            </list>
+            If method has single input parameter, it's name could be omitted.<br/>
+            Using <c>halt</c> (or <c>void</c>/<c>nothing</c>, which is the same)
+            for method output means that the methos doesn't return normally.<br/>
+            <c>canbenull</c> annotation is only applicable for output parameters.<br/>
+            You can use multiple <c>[ContractAnnotation]</c> for each FDT row,
+            or use single attribute with rows separated by semicolon.<br/>
+            </syntax>
+            <examples><list>
+            <item><code>
+            [ContractAnnotation("=> halt")]
+            public void TerminationMethod()
+            </code></item>
+            <item><code>
+            [ContractAnnotation("halt &lt;= condition: false")]
+            public void Assert(bool condition, string text) // regular assertion method
+            </code></item>
+            <item><code>
+            [ContractAnnotation("s:null => true")]
+            public bool IsNullOrEmpty(string s) // string.IsNullOrEmpty()
+            </code></item>
+            <item><code>
+            // A method that returns null if the parameter is null,
+            // and not null if the parameter is not null
+            [ContractAnnotation("null => null; notnull => notnull")]
+            public object Transform(object data) 
+            </code></item>
+            <item><code>
+            [ContractAnnotation("s:null=>false; =>true,result:notnull; =>false, result:null")]
+            public bool TryParse(string s, out Person result)
+            </code></item>
+            </list></examples>
+        </member>
+        <member name="T:MaterialForms.Annotations.LocalizationRequiredAttribute">
+            <summary>
+            Indicates that marked element should be localized or not.
+            </summary>
+            <example><code>
+            [LocalizationRequiredAttribute(true)]
+            class Foo {
+              string str = "my string"; // Warning: Localizable string
+            }
+            </code></example>
+        </member>
+        <member name="T:MaterialForms.Annotations.CannotApplyEqualityOperatorAttribute">
+            <summary>
+            Indicates that the value of the marked type (or its derivatives)
+            cannot be compared using '==' or '!=' operators and <c>Equals()</c>
+            should be used instead. However, using '==' or '!=' for comparison
+            with <c>null</c> is always permitted.
+            </summary>
+            <example><code>
+            [CannotApplyEqualityOperator]
+            class NoEquality { }
+            
+            class UsesNoEquality {
+              void Test() {
+                var ca1 = new NoEquality();
+                var ca2 = new NoEquality();
+                if (ca1 != null) { // OK
+                  bool condition = ca1 == ca2; // Warning
+                }
+              }
+            }
+            </code></example>
+        </member>
+        <member name="T:MaterialForms.Annotations.BaseTypeRequiredAttribute">
+            <summary>
+            When applied to a target attribute, specifies a requirement for any type marked
+            with the target attribute to implement or inherit specific type or types.
+            </summary>
+            <example><code>
+            [BaseTypeRequired(typeof(IComponent)] // Specify requirement
+            class ComponentAttribute : Attribute { }
+            
+            [Component] // ComponentAttribute requires implementing IComponent interface
+            class MyComponent : IComponent { }
+            </code></example>
+        </member>
+        <member name="T:MaterialForms.Annotations.UsedImplicitlyAttribute">
+            <summary>
+            Indicates that the marked symbol is used implicitly (e.g. via reflection, in external library),
+            so this symbol will not be marked as unused (as well as by other usage inspections).
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.MeansImplicitUseAttribute">
+            <summary>
+            Should be used on attributes and causes ReSharper to not mark symbols marked with such attributes
+            as unused (as well as by other usage inspections)
+            </summary>
+        </member>
+        <member name="F:MaterialForms.Annotations.ImplicitUseKindFlags.Access">
+            <summary>Only entity marked with attribute considered used.</summary>
+        </member>
+        <member name="F:MaterialForms.Annotations.ImplicitUseKindFlags.Assign">
+            <summary>Indicates implicit assignment to a member.</summary>
+        </member>
+        <member name="F:MaterialForms.Annotations.ImplicitUseKindFlags.InstantiatedWithFixedConstructorSignature">
+            <summary>
+            Indicates implicit instantiation of a type with fixed constructor signature.
+            That means any unused constructor parameters won't be reported as such.
+            </summary>
+        </member>
+        <member name="F:MaterialForms.Annotations.ImplicitUseKindFlags.InstantiatedNoFixedConstructorSignature">
+            <summary>Indicates implicit instantiation of a type.</summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.ImplicitUseTargetFlags">
+            <summary>
+            Specify what is considered used implicitly when marked
+            with <see cref="T:MaterialForms.Annotations.MeansImplicitUseAttribute"/> or <see cref="T:MaterialForms.Annotations.UsedImplicitlyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:MaterialForms.Annotations.ImplicitUseTargetFlags.Members">
+            <summary>Members of entity marked with attribute are considered used.</summary>
+        </member>
+        <member name="F:MaterialForms.Annotations.ImplicitUseTargetFlags.WithMembers">
+            <summary>Entity marked with attribute and all its members considered used.</summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.PublicAPIAttribute">
+            <summary>
+            This attribute is intended to mark publicly available API
+            which should not be removed and so is treated as used.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.InstantHandleAttribute">
+            <summary>
+            Tells code analysis engine if the parameter is completely handled when the invoked method is on stack.
+            If the parameter is a delegate, indicates that delegate is executed while the method is executed.
+            If the parameter is an enumerable, indicates that it is enumerated while the method is executed.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.PureAttribute">
+            <summary>
+            Indicates that a method does not make any observable state changes.
+            The same as <c>System.Diagnostics.Contracts.PureAttribute</c>.
+            </summary>
+            <example><code>
+            [Pure] int Multiply(int x, int y) => x * y;
+            
+            void M() {
+              Multiply(123, 42); // Waring: Return value of pure method is not used
+            }
+            </code></example>
+        </member>
+        <member name="T:MaterialForms.Annotations.MustUseReturnValueAttribute">
+            <summary>
+            Indicates that the return value of method invocation must be used.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.ProvidesContextAttribute">
+            <summary>
+            Indicates the type member or parameter of some type, that should be used instead of all other ways
+            to get the value that type. This annotation is useful when you have some "context" value evaluated
+            and stored somewhere, meaning that all other ways to get this value must be consolidated with existing one.
+            </summary>
+            <example><code>
+            class Foo {
+              [ProvidesContext] IBarService _barService = ...;
+            
+              void ProcessNode(INode node) {
+                DoSomething(node, node.GetGlobalServices().Bar);
+                //              ^ Warning: use value of '_barService' field
+              }
+            }
+            </code></example>
+        </member>
+        <member name="T:MaterialForms.Annotations.PathReferenceAttribute">
+            <summary>
+            Indicates that a parameter is a path to a file or a folder within a web project.
+            Path can be relative or absolute, starting from web root (~).
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.SourceTemplateAttribute">
+            <summary>
+            An extension method marked with this attribute is processed by ReSharper code completion
+            as a 'Source Template'. When extension method is completed over some expression, it's source code
+            is automatically expanded like a template at call site.
+            </summary>
+            <remarks>
+            Template method body can contain valid source code and/or special comments starting with '$'.
+            Text inside these comments is added as source code when the template is applied. Template parameters
+            can be used either as additional method parameters or as identifiers wrapped in two '$' signs.
+            Use the <see cref="T:MaterialForms.Annotations.MacroAttribute"/> attribute to specify macros for parameters.
+            </remarks>
+            <example>
+            In this example, the 'forEach' method is a source template available over all values
+            of enumerable types, producing ordinary C# 'foreach' statement and placing caret inside block:
+            <code>
+            [SourceTemplate]
+            public static void forEach&lt;T&gt;(this IEnumerable&lt;T&gt; xs) {
+              foreach (var x in xs) {
+                 //$ $END$
+              }
+            }
+            </code>
+            </example>
+        </member>
+        <member name="T:MaterialForms.Annotations.MacroAttribute">
+            <summary>
+            Allows specifying a macro for a parameter of a <see cref="T:MaterialForms.Annotations.SourceTemplateAttribute">source template</see>.
+            </summary>
+            <remarks>
+            You can apply the attribute on the whole method or on any of its additional parameters. The macro expression
+            is defined in the <see cref="P:MaterialForms.Annotations.MacroAttribute.Expression"/> property. When applied on a method, the target
+            template parameter is defined in the <see cref="P:MaterialForms.Annotations.MacroAttribute.Target"/> property. To apply the macro silently
+            for the parameter, set the <see cref="P:MaterialForms.Annotations.MacroAttribute.Editable"/> property value = -1.
+            </remarks>
+            <example>
+            Applying the attribute on a source template method:
+            <code>
+            [SourceTemplate, Macro(Target = "item", Expression = "suggestVariableName()")]
+            public static void forEach&lt;T&gt;(this IEnumerable&lt;T&gt; collection) {
+              foreach (var item in collection) {
+                //$ $END$
+              }
+            }
+            </code>
+            Applying the attribute on a template method parameter:
+            <code>
+            [SourceTemplate]
+            public static void something(this Entity x, [Macro(Expression = "guid()", Editable = -1)] string newguid) {
+              /*$ var $x$Id = "$newguid$" + x.ToString();
+              x.DoSomething($x$Id); */
+            }
+            </code>
+            </example>
+        </member>
+        <member name="P:MaterialForms.Annotations.MacroAttribute.Expression">
+            <summary>
+            Allows specifying a macro that will be executed for a <see cref="T:MaterialForms.Annotations.SourceTemplateAttribute">source template</see>
+            parameter when the template is expanded.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.Annotations.MacroAttribute.Editable">
+            <summary>
+            Allows specifying which occurrence of the target parameter becomes editable when the template is deployed.
+            </summary>
+            <remarks>
+            If the target parameter is used several times in the template, only one occurrence becomes editable;
+            other occurrences are changed synchronously. To specify the zero-based index of the editable occurrence,
+            use values >= 0. To make the parameter non-editable when the template is expanded, use -1.
+            </remarks>>
+        </member>
+        <member name="P:MaterialForms.Annotations.MacroAttribute.Target">
+            <summary>
+            Identifies the target parameter of a <see cref="T:MaterialForms.Annotations.SourceTemplateAttribute">source template</see> if the
+            <see cref="T:MaterialForms.Annotations.MacroAttribute"/> is applied on a template method.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AspMvcActionAttribute">
+            <summary>
+            ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter
+            is an MVC action. If applied to a method, the MVC action name is calculated
+            implicitly from the context. Use this attribute for custom wrappers similar to
+            <c>System.Web.Mvc.Html.ChildActionExtensions.RenderAction(HtmlHelper, String)</c>.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AspMvcAreaAttribute">
+            <summary>
+            ASP.NET MVC attribute. Indicates that a parameter is an MVC area.
+            Use this attribute for custom wrappers similar to
+            <c>System.Web.Mvc.Html.ChildActionExtensions.RenderAction(HtmlHelper, String)</c>.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AspMvcControllerAttribute">
+            <summary>
+            ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter is
+            an MVC controller. If applied to a method, the MVC controller name is calculated
+            implicitly from the context. Use this attribute for custom wrappers similar to
+            <c>System.Web.Mvc.Html.ChildActionExtensions.RenderAction(HtmlHelper, String, String)</c>.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AspMvcMasterAttribute">
+            <summary>
+            ASP.NET MVC attribute. Indicates that a parameter is an MVC Master. Use this attribute
+            for custom wrappers similar to <c>System.Web.Mvc.Controller.View(String, String)</c>.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AspMvcModelTypeAttribute">
+            <summary>
+            ASP.NET MVC attribute. Indicates that a parameter is an MVC model type. Use this attribute
+            for custom wrappers similar to <c>System.Web.Mvc.Controller.View(String, Object)</c>.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AspMvcPartialViewAttribute">
+            <summary>
+            ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter is an MVC
+            partial view. If applied to a method, the MVC partial view name is calculated implicitly
+            from the context. Use this attribute for custom wrappers similar to
+            <c>System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper, String)</c>.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AspMvcSuppressViewErrorAttribute">
+            <summary>
+            ASP.NET MVC attribute. Allows disabling inspections for MVC views within a class or a method.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AspMvcDisplayTemplateAttribute">
+            <summary>
+            ASP.NET MVC attribute. Indicates that a parameter is an MVC display template.
+            Use this attribute for custom wrappers similar to 
+            <c>System.Web.Mvc.Html.DisplayExtensions.DisplayForModel(HtmlHelper, String)</c>.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AspMvcEditorTemplateAttribute">
+            <summary>
+            ASP.NET MVC attribute. Indicates that a parameter is an MVC editor template.
+            Use this attribute for custom wrappers similar to
+            <c>System.Web.Mvc.Html.EditorExtensions.EditorForModel(HtmlHelper, String)</c>.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AspMvcTemplateAttribute">
+            <summary>
+            ASP.NET MVC attribute. Indicates that a parameter is an MVC template.
+            Use this attribute for custom wrappers similar to
+            <c>System.ComponentModel.DataAnnotations.UIHintAttribute(System.String)</c>.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AspMvcViewAttribute">
+            <summary>
+            ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter
+            is an MVC view component. If applied to a method, the MVC view name is calculated implicitly
+            from the context. Use this attribute for custom wrappers similar to
+            <c>System.Web.Mvc.Controller.View(Object)</c>.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AspMvcViewComponentAttribute">
+            <summary>
+            ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter
+            is an MVC view component name.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AspMvcViewComponentViewAttribute">
+            <summary>
+            ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter
+            is an MVC view component view. If applied to a method, the MVC view component view name is default.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AspMvcActionSelectorAttribute">
+            <summary>
+            ASP.NET MVC attribute. When applied to a parameter of an attribute,
+            indicates that this parameter is an MVC action name.
+            </summary>
+            <example><code>
+            [ActionName("Foo")]
+            public ActionResult Login(string returnUrl) {
+              ViewBag.ReturnUrl = Url.Action("Foo"); // OK
+              return RedirectToAction("Bar"); // Error: Cannot resolve action
+            }
+            </code></example>
+        </member>
+        <member name="T:MaterialForms.Annotations.RazorSectionAttribute">
+            <summary>
+            Razor attribute. Indicates that a parameter or a method is a Razor section.
+            Use this attribute for custom wrappers similar to 
+            <c>System.Web.WebPages.WebPageBase.RenderSection(String)</c>.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.CollectionAccessAttribute">
+            <summary>
+            Indicates how method, constructor invocation or property access
+            over collection type affects content of the collection.
+            </summary>
+        </member>
+        <member name="F:MaterialForms.Annotations.CollectionAccessType.None">
+            <summary>Method does not use or modify content of the collection.</summary>
+        </member>
+        <member name="F:MaterialForms.Annotations.CollectionAccessType.Read">
+            <summary>Method only reads content of the collection but does not modify it.</summary>
+        </member>
+        <member name="F:MaterialForms.Annotations.CollectionAccessType.ModifyExistingContent">
+            <summary>Method can change content of the collection but does not add new elements.</summary>
+        </member>
+        <member name="F:MaterialForms.Annotations.CollectionAccessType.UpdatedContent">
+            <summary>Method can add new elements to the collection.</summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AssertionMethodAttribute">
+            <summary>
+            Indicates that the marked method is assertion method, i.e. it halts control flow if
+            one of the conditions is satisfied. To set the condition, mark one of the parameters with 
+            <see cref="T:MaterialForms.Annotations.AssertionConditionAttribute"/> attribute.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AssertionConditionAttribute">
+            <summary>
+            Indicates the condition parameter of the assertion method. The method itself should be
+            marked by <see cref="T:MaterialForms.Annotations.AssertionMethodAttribute"/> attribute. The mandatory argument of
+            the attribute is the assertion type.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.AssertionConditionType">
+            <summary>
+            Specifies assertion type. If the assertion method argument satisfies the condition,
+            then the execution continues. Otherwise, execution is assumed to be halted.
+            </summary>
+        </member>
+        <member name="F:MaterialForms.Annotations.AssertionConditionType.IS_TRUE">
+            <summary>Marked parameter should be evaluated to true.</summary>
+        </member>
+        <member name="F:MaterialForms.Annotations.AssertionConditionType.IS_FALSE">
+            <summary>Marked parameter should be evaluated to false.</summary>
+        </member>
+        <member name="F:MaterialForms.Annotations.AssertionConditionType.IS_NULL">
+            <summary>Marked parameter should be evaluated to null value.</summary>
+        </member>
+        <member name="F:MaterialForms.Annotations.AssertionConditionType.IS_NOT_NULL">
+            <summary>Marked parameter should be evaluated to not null value.</summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.TerminatesProgramAttribute">
+            <summary>
+            Indicates that the marked method unconditionally terminates control flow execution.
+            For example, it could unconditionally throw exception.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.LinqTunnelAttribute">
+            <summary>
+            Indicates that method is pure LINQ method, with postponed enumeration (like Enumerable.Select,
+            .Where). This annotation allows inference of [InstantHandle] annotation for parameters
+            of delegate type by analyzing LINQ method chains.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.NoEnumerationAttribute">
+            <summary>
+            Indicates that IEnumerable, passed as parameter, is not enumerated.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.RegexPatternAttribute">
+            <summary>
+            Indicates that parameter is regular expression pattern.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.XamlItemsControlAttribute">
+            <summary>
+            XAML attribute. Indicates the type that has <c>ItemsSource</c> property and should be treated
+            as <c>ItemsControl</c>-derived type, to enable inner items <c>DataContext</c> type resolve.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Annotations.XamlItemBindingOfItemsControlAttribute">
+            <summary>
+            XAML attribute. Indicates the property of some <c>BindingBase</c>-derived type, that
+            is used to bind some item of <c>ItemsControl</c>-derived type. This annotation will
+            enable the <c>DataContext</c> type resolve for XAML bindings for such properties.
+            </summary>
+            <remarks>
+            Property should have the tree ancestor of the <c>ItemsControl</c> type or
+            marked with the <see cref="T:MaterialForms.Annotations.XamlItemsControlAttribute"/> attribute.
+            </remarks>
+        </member>
+        <member name="T:MaterialForms.Annotations.NoReorder">
+            <summary>
+            Prevents the Member Reordering feature from tossing members of the marked class.
+            </summary>
+            <remarks>
+            The attribute must be mentioned in your member reordering patterns
+            </remarks>
+        </member>
+        <member name="P:MaterialForms.MaterialForm.FocusedSchema">
+            <summary>
+            Gets or sets the value that indicates which form element should receive focus
+            when the form is displayed. A negative value disables this feature.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.MaterialForm.Item(System.String)">
+            <summary>
+            Gets or sets the value of the schema with the specified key.
+            </summary>
+        </member>
+        <member name="M:MaterialForms.MaterialForm.GetValuesDictionary">
+            <summary>
+            Gets all form key-value pairs as a dictionary. Schemas that have no key or cannot hold values are excluded.
+            </summary>
+        </member>
+        <member name="M:MaterialForms.MaterialForm.GetValuesDictionaryFromNames">
+            <summary>
+            Gets all form name-value pairs as a dictionary. Schemas that have no name or cannot hold values are excluded.
+            </summary>
+        </member>
+        <member name="M:MaterialForms.MaterialForm.GetValuesList">
+            <summary>
+            Gets all form values as an indexed list. Schemas that cannot hold values are excluded.
+            </summary>
+            <remarks>Because some schemas cannot hold values, returned indexes may not match one to one with the form's.</remarks>
+        </member>
+        <member name="M:MaterialForms.MaterialForm.GetValuesDynamic">
+            <summary>
+            Gets all form key-value pairs as a dynamic object with keys as property names. Schemas that have no key or cannot hold values are excluded.
+            </summary>
+        </member>
+        <member name="M:MaterialForms.MaterialForm.Bind``1">
+            <summary>
+            Creates a new instance of specified type and tries to assign all matching form values to it. Schemas that have no keys or cannot hold values are excluded.
+            </summary>
+            <typeparam name="T">Type of object to be assigned to. Must have a default constructor.</typeparam>
+        </member>
+        <member name="M:MaterialForms.MaterialForm.Bind``1(``0)">
+            <summary>
+            Tries to assign all matching form values to an object of specified type. Schemas that have no keys or cannot hold values are excluded.
+            </summary>
+            <typeparam name="T">Type of object to be assigned to.</typeparam>
+        </member>
+        <member name="P:MaterialForms.MaterialForm.View">
+            <summary>
+            Gets a new view bound to the current state of the object. Use this if you need to host your forms manually.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.SchemaBase">
+            <summary>
+            Base class for all schemas. Custom data types and controls can be implemented by extending this class.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.SchemaBase.Key">
+            <summary>
+            Gets or sets the key that identifies the value in the form. Does not appear in the UI.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.SchemaBase.Name">
+            <summary>
+            Gets or sets the display name of the schema, usually appearing as a control hint or label.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.SchemaBase.Description">
+            <summary>
+            Gets or sets the description of the schema, usually appearing as a tooltip on mouse over.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.SchemaBase.IconKind">
+            <summary>
+            Gets or sets the icon type shown in the control. Some controls do not display icons.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Tasks.TaskRunner">
+            <summary>
+            Allows running background tasks while displaying a controllable progress dialog.
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Views.DialogView">
+            <summary>
+            Interaction logic for FormView.xaml
+            </summary>
+            <summary>
+            DialogView
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Views.DialogView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Views.FormView">
+            <summary>
+            Interaction logic for FormView.xaml
+            </summary>
+            <summary>
+            FormView
+            </summary>
+        </member>
+        <member name="M:MaterialForms.Views.FormView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.MaterialFormsWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+        </member>
+        <member name="M:MaterialForms.MaterialFormsWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MaterialForms.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MaterialForms.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

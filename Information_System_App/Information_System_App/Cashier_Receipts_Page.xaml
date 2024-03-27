@@ -1,0 +1,112 @@
+﻿<Page x:Class="Information_System_App.Cashier_Receipts_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Information_System_App"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Cashier_Receipts_Page">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Rectangle
+            x:Name="BackGround"
+            Grid.ColumnSpan="15"
+            Grid.Row="1" Grid.RowSpan="9" Fill="White"/>
+
+        <DataGrid
+            x:Name="Table_Receipts_Datagrid"
+            Grid.Row="1" Grid.ColumnSpan="9"
+            Grid.Column="1"
+            Grid.RowSpan="8"
+            CanUserAddRows="False"
+            CanUserDeleteRows="False" 
+            Background="White"
+            CanUserReorderColumns="False"
+            AutoGenerateColumns="False"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold">
+            <DataGrid.Columns>
+                <DataGridTextColumn IsReadOnly="True" Header="Номер" Binding="{Binding Receipts_and_Products_ID}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Номер чека" Binding="{Binding ID_Receipt}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Номер продукта" Binding="{Binding ID_Product}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Количество" Binding="{Binding Quantity_from_Stock}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Название" Binding="{Binding Product_Name}"/>
+
+                <DataGridTextColumn IsReadOnly="True" Header="Номер" Binding="{Binding Receipt_ID}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Сумма покупки (руб)" Binding="{Binding Receipt_Full_Price}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Сумма покупателя (руб)" Binding="{Binding Receipt_Buyer_Amount}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Сдача (руб)" Binding="{Binding Receipt_Change}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Дата покупки" Binding="{Binding Receipt_Date}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button
+            x:Name="Find_by_button"
+            Grid.Column="10" Grid.ColumnSpan="5"
+            Grid.Row="5"
+            FontSize="15"
+            Content="Найти по номеру чека"
+            VerticalAlignment="Center"
+            VerticalContentAlignment="Center"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White" Margin="5,0,5,0" Click="Find_by_button_Click"/>
+
+        <Button
+            x:Name="Delete_by_button"
+            Grid.Column="10" Grid.ColumnSpan="5"
+            Grid.Row="3"
+            FontSize="15"
+            Content="Удалить чек"
+            VerticalAlignment="Center"
+            VerticalContentAlignment="Center"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White" Margin="5,0,5,0" Click="Delete_by_button_Click"/>
+
+        <TextBox
+            x:Name="Receipt_Number_TextBox"
+            Grid.Column="10" Grid.ColumnSpan="5"
+            Grid.Row="4"
+            VerticalAlignment="Center"
+            HorizontalContentAlignment="Center"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="Orange" FontSize="15" Margin="5,0,5,0" TextChanged="Receipt_Number_TextBox_TextChanged"/>
+
+        <Button
+            x:Name="Export_Receipt_button"
+            Grid.ColumnSpan="15"
+            Grid.Row="9"
+            FontSize="15"
+            Content="Выгрузить этот чек"
+            VerticalAlignment="Center"
+            VerticalContentAlignment="Center"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White" Margin="0,0,5,0" Click="Export_Receipt_button_Click"/>
+
+    </Grid>
+</Page>

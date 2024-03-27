@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SonicXTails\\Desktop\\Information_System_of_DNS\\Information_System_App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8CED4D2-E9D6-4AFB-AC29-5A53FD94DD66}|Information_System_App\\Information_System_App.csproj|c:\\users\\sonicxtails\\desktop\\information_system_of_dns\\information_system_app\\information_system_app\\cashier_cash_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8CED4D2-E9D6-4AFB-AC29-5A53FD94DD66}|Information_System_App\\Information_System_App.csproj|solutionrelative:information_system_app\\cashier_cash_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8CED4D2-E9D6-4AFB-AC29-5A53FD94DD66}|Information_System_App\\Information_System_App.csproj|c:\\users\\sonicxtails\\desktop\\information_system_of_dns\\information_system_app\\information_system_app\\cashier_receipts_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8CED4D2-E9D6-4AFB-AC29-5A53FD94DD66}|Information_System_App\\Information_System_App.csproj|solutionrelative:information_system_app\\cashier_receipts_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8CED4D2-E9D6-4AFB-AC29-5A53FD94DD66}|Information_System_App\\Information_System_App.csproj|c:\\users\\sonicxtails\\desktop\\information_system_of_dns\\information_system_app\\information_system_app\\cashier_receipts_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C8CED4D2-E9D6-4AFB-AC29-5A53FD94DD66}|Information_System_App\\Information_System_App.csproj|solutionrelative:information_system_app\\cashier_receipts_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cashier_Cash_Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SonicXTails\\Desktop\\Information_System_of_DNS\\Information_System_App\\Information_System_App\\Cashier_Cash_Page.xaml.cs",
+              "RelativeDocumentMoniker": "Information_System_App\\Cashier_Cash_Page.xaml.cs",
+              "ToolTip": "C:\\Users\\SonicXTails\\Desktop\\Information_System_of_DNS\\Information_System_App\\Information_System_App\\Cashier_Cash_Page.xaml.cs",
+              "RelativeToolTip": "Information_System_App\\Cashier_Cash_Page.xaml.cs",
+              "ViewState": "AQIAAC4BAAAAAAAAAAAuwBkBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:25:48.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cashier_Receipts_Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SonicXTails\\Desktop\\Information_System_of_DNS\\Information_System_App\\Information_System_App\\Cashier_Receipts_Page.xaml.cs",
+              "RelativeDocumentMoniker": "Information_System_App\\Cashier_Receipts_Page.xaml.cs",
+              "ToolTip": "C:\\Users\\SonicXTails\\Desktop\\Information_System_of_DNS\\Information_System_App\\Information_System_App\\Cashier_Receipts_Page.xaml.cs",
+              "RelativeToolTip": "Information_System_App\\Cashier_Receipts_Page.xaml.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T07:51:52.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cashier_Receipts_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\SonicXTails\\Desktop\\Information_System_of_DNS\\Information_System_App\\Information_System_App\\Cashier_Receipts_Page.xaml",
+              "RelativeDocumentMoniker": "Information_System_App\\Cashier_Receipts_Page.xaml",
+              "ToolTip": "C:\\Users\\SonicXTails\\Desktop\\Information_System_of_DNS\\Information_System_App\\Information_System_App\\Cashier_Receipts_Page.xaml",
+              "RelativeToolTip": "Information_System_App\\Cashier_Receipts_Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T07:51:53.219Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

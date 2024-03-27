@@ -1,0 +1,243 @@
+﻿<Page x:Class="Information_System_App.Storekeeper_Supplys_Suppliers_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Information_System_App"
+      mc:Ignorable="d" 
+      Title="Поставки и поставщики" Height="850" Width="1600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--Фон (это для вёрскти, чтобы было удобнее понимать как элементы будут стоять)-->
+        <Rectangle
+            x:Name="BackGround"
+            Grid.ColumnSpan="15"
+            Grid.Row="1" Grid.RowSpan="9" Fill="White"/>
+
+        <!--Вся-->
+        <DataGrid
+            x:Name="Table_Suppliers_Datagrid"
+            Grid.Row="1" Grid.ColumnSpan="8"
+            Grid.RowSpan="5"
+            CanUserAddRows="False"
+            CanUserDeleteRows="False" 
+            Background="White"
+            CanUserReorderColumns="False"
+            AutoGenerateColumns="False"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" SelectionChanged="Table_Suppliers_Datagrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn IsReadOnly="True" Header="Номер поставщика" Binding="{Binding Supplier_ID}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Название" Binding="{Binding Supplier_Name}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Информация" Binding="{Binding Supplier_Info}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Адрес" Binding="{Binding Supplier_Address}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        
+        <TextBlock
+            x:Name="Data_textblock"
+            Grid.Column="11"
+            Grid.Row="1"
+            Text="Данные"
+            TextAlignment="Center"
+            VerticalAlignment="Center"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="Orange" FontSize="20"/>
+        
+        <TextBox
+            x:Name="Name_Supplier_textbox"
+            Grid.Column="9" Grid.ColumnSpan="5"
+            Grid.Row="2"
+            VerticalAlignment="Bottom"
+            TextAlignment="Center"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="Orange" FontSize="15"/>
+        <TextBlock
+            x:Name="Name_Supplier_textblock"
+            Grid.Column="8"
+            Grid.Row="2"
+            Text="Название"
+            TextAlignment="Center"
+            VerticalAlignment="Bottom"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="Orange" FontSize="15"/>
+        
+        <TextBox
+            x:Name="Info_Supplier_textbox"
+            Grid.Column="9" Grid.ColumnSpan="5"
+            Grid.Row="3"
+            VerticalAlignment="Bottom"
+            TextAlignment="Center"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="Orange" FontSize="15"/>
+        <TextBlock
+            x:Name="Info_Supplier_textblock"
+            Grid.Column="8"
+            Grid.Row="3"
+            Text="Ифнормация"
+            TextAlignment="Center"
+            VerticalAlignment="Bottom"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="Orange" FontSize="15"/>
+        
+        <TextBox
+            x:Name="Address_Supplier_textbox"
+            Grid.Column="9" Grid.ColumnSpan="5"
+            Grid.Row="4"
+            VerticalAlignment="Bottom"
+            TextAlignment="Center"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="Orange" FontSize="15"/>
+        <TextBlock
+            x:Name="Address_Supplier_textblock"
+            Grid.Column="8"
+            Grid.Row="4"
+            Text="Адрес"
+            TextAlignment="Center"
+            VerticalAlignment="Bottom"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="Orange" FontSize="15"/>
+
+        <Button
+             x:Name="Delete_Supplier_button"
+             Grid.Column="10" Grid.ColumnSpan="1"
+             Grid.Row="5"
+             FontSize="15"
+             Content="Удалить"
+             FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White" Click="Delete_Supply_button_Click"/>
+        <Button
+             x:Name="Add_Supplier_button"
+             Grid.Column="11" Grid.ColumnSpan="1"
+             Grid.Row="5"
+             FontSize="15"
+             Content="Добавить"
+             FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White" Click="Add_Supplier_button_Click"/>
+        <Button
+             x:Name="Update_Supplier_button"
+             Grid.Column="12" Grid.ColumnSpan="1"
+             Grid.Row="5"
+             FontSize="15"
+             Content="Обновить"
+             FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White" Click="Update_Supplier_button_Click"/>
+
+
+
+
+
+        <DataGrid
+            x:Name="Table_Supplys_Datagrid"
+            Grid.Row="6" Grid.ColumnSpan="8"
+            Grid.RowSpan="4"
+            CanUserAddRows="False"
+            CanUserDeleteRows="False" 
+            Background="White"
+            CanUserReorderColumns="False"
+            AutoGenerateColumns="False"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" SelectionChanged="Table_Supplys_Datagrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn IsReadOnly="True" Header="Номер поставки" Binding="{Binding Supply_ID}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Количество" Binding="{Binding Supply_Quantity}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Дата доставки" Binding="{Binding Supply_Date}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Номер поставщика" Binding="{Binding ID_Supplier}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Номер продукта" Binding="{Binding ID_Product}"/>
+                <DataGridTextColumn IsReadOnly="True" Header="Номер продукта" Binding="{Binding Product_Name}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        
+        
+        <TextBox
+            x:Name="Quantity_Supply_textbox"
+            Grid.Column="9" Grid.ColumnSpan="5"
+            Grid.Row="6"
+            VerticalAlignment="Bottom"
+            TextAlignment="Center"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="Orange" FontSize="15" TextChanged="Quantity_Supply_textbox_TextChanged"/>
+        <TextBlock
+            x:Name="Quantity_Supply_textblock"
+            Grid.Column="8"
+            Grid.Row="6"
+            Text="Количество"
+            TextAlignment="Center"
+            VerticalAlignment="Bottom"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="Orange" FontSize="15"/>
+
+        <TextBox
+            x:Name="Date_Supply_textbox"
+            Grid.Column="9" Grid.ColumnSpan="5"
+            Grid.Row="7"
+            VerticalAlignment="Bottom"
+            TextAlignment="Center"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="Orange" FontSize="15" IsEnabled="False"/>
+        <TextBlock
+            x:Name="Date_Supply_textblock"
+            Grid.Column="8"
+            Grid.Row="7"
+            Text="Дата получения / изменения"
+            TextAlignment="Center"
+            VerticalAlignment="Bottom"
+            TextWrapping="Wrap"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="Orange" FontSize="15"/>
+
+        <Button
+             x:Name="Delete_Supply_button"
+             Grid.Column="10" Grid.ColumnSpan="1"
+             Grid.Row="8"
+             FontSize="15"
+             Content="Удалить"
+             FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White" Click="Delete_Supply_button_Click_1"/>
+        <Button
+             x:Name="Update_Supply_button"
+             Grid.Column="12" Grid.ColumnSpan="1"
+             Grid.Row="8"
+             FontSize="15"
+             Content="Обновить"
+             FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White" Click="Update_Supply_button_Click"/>
+
+        <ComboBox
+            x:Name="ID_Product_Products_combobox"
+            Grid.Column="14"
+            Grid.Row="6"
+            VerticalAlignment="Bottom"
+            HorizontalContentAlignment="Center"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="Orange" FontSize="15" IsEnabled="False"/>
+        <TextBlock
+            x:Name="ID_Product_textblock"
+            Grid.Column="15"
+            Grid.Row="6"
+            Text="Номер продукта"
+            TextAlignment="Center"
+            VerticalAlignment="Center"
+            TextWrapping="Wrap"
+            FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="Orange" FontSize="15"/>
+
+        <Button
+             x:Name="Import_button"
+             Grid.Column="11" Grid.ColumnSpan="1"
+             Grid.Row="2"
+             FontSize="15"
+             Content="Импорт"
+             VerticalAlignment="Top"
+             FontFamily="Bahnschrift SemiLight" FontWeight="Bold" Foreground="White" Click="Import_button_Click"/>
+    </Grid>
+</Page>
